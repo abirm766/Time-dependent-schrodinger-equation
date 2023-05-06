@@ -28,3 +28,5 @@ $$\frac{\Psi_k^{n+1}-\Psi_k^n}{\Delta t}=\frac{i}{2\Delta x^2}\left(\Psi_{k-1}^n
 $$\frac{\Psi_k^{n+1}-\Psi_k^n}{\Delta t}=\frac{i}{2\Delta x^2}\left(\Psi_{k-1}^{n+1}-2\Psi_k^{n+1}+\Psi_{k+1}^{n+1}\right)-iV_k\Psi_k^{n+1} \quad (4)$$  
 Add Eq. (3) and Eq. (4),  
 $$\Psi_k^{n+1}-\Psi_k^n=\frac{i\Delta t}{4\Delta x^2}\left(\Psi_{k-1}^n-2\Psi_k^n+\Psi_{k+1}^n+\Psi_{k-1}^{n+1}-2\Psi_k^{n+1}+\Psi_{k+1}^{n+1}\right)-i\frac{i\Delta t}{2}V_k\left(\Psi_k^n+\Psi_k^{n+1}\right)$$
+Set, $a=\frac{i\Delta t}{2}$ and $b=\frac{i\Delta t}{4\Delta x^2}=\frac{a}{2\Delta x^2}$. Hence,
+$$\Psi_k^{n+1}-\Psi_k^n=b\left(\Psi_{k-1}^n-2\Psi_k^n+\Psi_{k+1}^n+\Psi_{k-1}^{n+1}-2\Psi_k^{n+1}+\Psi_{k+1}^{n+1}\right)-aV_k\left(\Psi_k^n+\Psi_k^{n+1}\right)$$
