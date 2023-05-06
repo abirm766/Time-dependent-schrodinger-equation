@@ -48,7 +48,9 @@ Eq. (5) can be written in terms of Banded matrices,
     \vdots \\
     \vdots \\
     \Psi_k^{n+1}
-\end{pmatrix}}_{\Psi^{n+1}} = 
+\end{pmatrix}}_{\Psi^{n+1}} =  
+```  
+```math  
 \underbrace{\begin{pmatrix}
   1-2b-aV_1 & b & 0 & \cdots & \cdots & 0 \\
   b & 1-2b-aV_2 & b & \ddots & \ddots & \vdots \\
@@ -68,4 +70,7 @@ Eq. (5) can be written in terms of Banded matrices,
 ```  
 Thus, the effective matrix equation,
 $$\Psi^{n+1}=A^{-1}B\Psi^n \quad (6)$$  
-Hence, the problem is reduced to solving Eq. (6). This matrix equation is solved for the above two potential using a Gaussian wave function $\Psi^0$ to start with,
+Hence, the problem is reduced to solving Eq. (6). This matrix equation is solved for the above two potential using a Gaussian wave packet $\Psi^0$ to start with,
+$$\Psi(x, 0) = e^{ikx}exp\left[-\frac{(x-\mu)^2}{\sigma}\right]$$  
+## Result  
+nn
