@@ -20,6 +20,8 @@ We have the Time Dependent Schrödinger Equation:
 $$i\hbar\frac{\partial}{\partial t}\Psi(x, t)=-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}\Psi(x, t)+V(x)\Psi(x, t) \quad (1)$$
 For ease of calculation set $\hbar$ and $m$ to unity. Using this rewrite Eq. (1) as,  
 $$\frac{\partial}{\partial t}\Psi(x, t)=\frac{i}{2}\frac{\partial^2}{\partial x^2}\Psi(x, t)-iV(x)\Psi(x, t) \quad (2)$$
-Now replace the derivatives with their discrete analogs using forward difference formula,  
-$$\frac{\partial \Psi}{\partial t}\equiv \frac{\Psi^{n+1}_{k}-\Psi^{n}_k}{\Delta t}$$  
-$$\frac{\partial^2 \Psi}{\partial x^2}\equiv \frac{\Psi^{n}_{k-1}-2\Psi^{n}_k+\Psi^{n}_{k+1}}{\Delta x^2}$$
+Now replace the derivatives with their discrete analogs using forward difference formula,   
+$$\frac{\partial^2 \Psi}{\partial x^2}\equiv \frac{\Psi_{k-1}^n-2\Psi_k^n+\Psi_{k+1}^n}{\Delta x^2}$$  
+$$\frac{\partial \Psi}{\partial t}\equiv \frac{\Psi^{n+1}_k-\Psi^n_k}{\Delta t}$$  
+Here, $n$ is the time index and $k$ is the position index. Thus,  
+
