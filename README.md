@@ -73,4 +73,7 @@ $$\Psi^{n+1}=A^{-1}B\Psi^n \quad (6)$$
 Hence, the problem is reduced to solving Eq. (6). This matrix equation is solved for the above two potential using a Gaussian wave packet $\Psi^0$ to start with,
 $$\Psi(x, 0) = e^{ikx}exp\left[-\frac{(x-\mu)^2}{\sigma}\right]$$  
 ## Result  
-nn
+### Step potential  
+![](https://github.com/abirm766/time-dependent-schrodinger-equation/blob/main/tdse_step.gif)  
+### Barrier potential  
+![](https://github.com/abirm766/time-dependent-schrodinger-equation/blob/main/tdse_barr.gif)
