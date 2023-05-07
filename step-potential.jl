@@ -62,5 +62,4 @@ for filename in filenames
         rm(filename);   # deletes the .png frames
     end
 end
-#img = load("tdse_step.gif");
 #display("image/gif", read("tdse_step.gif"));   # inline display for notebook
