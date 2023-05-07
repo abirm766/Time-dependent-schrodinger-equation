@@ -1,5 +1,5 @@
 # Numerical Solution to Time Dependent Schrödinger Equation
-1D time dependent Schrödinger equation is solved using **Finite Difference** method. For visualization, two simple cases of Step and Barrier potential is chosen. The computation is implemented in **Julia** (1.5.3 or later).  
+1D time dependent Schrödinger equation is solved using **Finite Difference** method. For visualization, two simple cases of Step and Barrier potential is chosen. The computation is implemented in [Julia](https://julialang.org/) (1.5.3 or later).  
 ### Step Potential:  
 $$\ V(x) =
   \begin{cases}
