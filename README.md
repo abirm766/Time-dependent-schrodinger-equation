@@ -4,7 +4,7 @@
 $$\ V(x) =
   \begin{cases}
     0       & \quad x<0\\
-    1  & \quad x\ge1
+    1  & \quad x\ge0
   \end{cases}
 \$$
 ### Barrier Potential:  
@@ -14,7 +14,10 @@ $$\ V(x) =
     1  & \quad 0\le x\le 1\\
     0       & \quad x>1\\
   \end{cases}
-\$$
+\$$  
+## Usage  
+Run in terminal: `julia example.jl`  
+Run the `package.jl` script to install/update necessary packages.  
 ## Solution  
 We have the Time Dependent Schrödinger Equation:  
 $$i\hbar\frac{\partial}{\partial t}\Psi(x, t)=-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}\Psi(x, t)+V(x)\Psi(x, t) \quad (1)$$
